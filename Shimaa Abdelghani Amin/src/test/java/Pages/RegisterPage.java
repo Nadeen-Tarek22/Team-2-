@@ -11,7 +11,7 @@ public class RegisterPage {
         this.driver = driver;
     }
 
-    // Locators
+    
     By firstNameField = By.id("input-firstname");
     By lastNameField = By.id("input-lastname");
     By emailField = By.id("input-email");
