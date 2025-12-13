@@ -14,7 +14,7 @@ public class TabletsPage {
         this.driver = driver;
     }
 
-    // Locators
+   
     By pageTitleLocator = By.xpath("//h2[contains(text(),'Tablets')]");
     By firstTabletNameLocator = By.xpath("(//div[@class='caption']//a)[1]");
     By firstTabletPriceLocator = By.xpath("(//p[@class='price'])[1]");
