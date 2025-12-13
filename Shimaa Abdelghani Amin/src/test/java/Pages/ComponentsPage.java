@@ -14,7 +14,6 @@ public class ComponentsPage {
         this.driver = driver;
     }
 
-    // Locators
 
     By addToCartLocator = By.cssSelector("button[aria-label='Add to Cart']");
     By actualTitleLocator = By.xpath("//h1[contains(text(),'Components')]");
